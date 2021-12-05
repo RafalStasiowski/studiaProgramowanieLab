@@ -6,6 +6,7 @@ class Csv_reader:
     def __init__(self, file_name):
         self._file_name = file_name
         self._file_content = []
+        self.read_from_file()
 
     def read_from_file(self) -> None:
         with open(self._file_name, 'r', encoding="utf8") as read_obj:
