@@ -17,7 +17,7 @@ class Main(Resource):
 
 api.add_resource(Main, '/')
 api.add_resource(Movie_service, '/movies')
-#api.add_resource(Ratings_service, '/ratings')
+api.add_resource(Ratings_service, '/ratings')
 #api.add_resource(Links_service, '/links')
 #api.add_resource(Tags_service, '/tags')
 
